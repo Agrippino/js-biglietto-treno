@@ -1,5 +1,7 @@
 let Chilometri = prompt ("Salve viaggiatore, inserisca quanti chilometri percorrerà oggi,grazie");
+Chilometri=parseFloat(Chilometri);
 let passeggeroEta = prompt ("Qual è l'eta del passeggero?");
+passeggeroEta=parseFloat(passeggeroEta);
 let prezzofinale
 
 let x = Chilometri;
